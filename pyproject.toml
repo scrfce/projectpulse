@@ -1,0 +1,12 @@
+[project]
+name = "projectpulse"
+version = "1.0.0"
+requires-python = ">=3.11"
+description = "ProjectPulse: локальный цифровой двойник программного проекта"
+[project.optional-dependencies]
+dev = ["pytest", "hypothesis", "mutmut"]
+# Внешние плагины подключаются через entry points:
+#   [project.entry-points."projectpulse.metrics"]  my = "my_pkg.metrics"
+#   [project.entry-points."projectpulse.rules"]    my = "my_pkg.rules"
+[tool.setuptools]
+packages = ["projectpulse"]

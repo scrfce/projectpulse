@@ -1,0 +1,7 @@
+{
+  "_comment": "Заполните своими репозиториями. Набор url+commit должен отличаться от одногруппников.",
+  "repos": [
+    {"name": "healthy",     "role": "healthy",     "url": "https://github.com/OWNER/HEALTHY_REPO.git",   "commit": null},
+    {"name": "problematic", "role": "problematic", "url": "https://github.com/OWNER/PROBLEM_REPO.git", "commit": null}
+  ]
+}
